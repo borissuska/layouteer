@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="layouteer.css">
+  </head>
+  <body>
+    <div id="layouteer-editor"></div>
+
+    <script src="layouteer-dist.js"></script>
+    <script>
+        var elem = document.getElementById("layouteer-editor");
+        layouteer.init({
+            editor: elem,
+            content: null
+        });
+        elem.focus();
+    </script>
+  </body>
+</html>

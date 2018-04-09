@@ -1,0 +1,29 @@
+.layouteer-editor {
+    font-family: 'Courier New', Courier, monospace;
+    cursor: default;
+    text-align: center;
+}
+
+.layouteer-editor span {
+    background: white;
+    color: black;
+}
+
+.layouteer-editor span.cursor {
+    background: black;
+    color: white;
+}
+
+.layouteer-editor span.connected {
+    background: yellow;
+}
+
+.layouteer-editor span.region {
+    background: lightyellow;
+}
+
+.layouteer-editor > .ruler {
+    color: #a0a0a0;
+}
+
+
