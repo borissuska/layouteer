@@ -1,0 +1,27 @@
+
+
+@default-bg-color: white;
+@default-text-color: black;
+
+
+.layouteer-editor {
+    font-family: 'Courier New', Courier, monospace;
+    cursor: default;
+    text-align: center;
+
+    span {
+        background: @default-bg-color;
+        color: @default-text-color;
+
+        &.cursor {
+            background: #fff - @default-bg-color;
+            color: #fff - @default-text-color;
+        }
+    }
+
+
+    & > .ruler {
+        color: #d0d0d0 - @default-text-color;
+    }
+}
+
